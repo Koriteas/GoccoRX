@@ -3,23 +3,51 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07400AA122C12C7600FECB12 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 07400AA022C12C7600FECB12 /* RxRelay */; };
+		07400AA322C12C7600FECB12 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 07400AA222C12C7600FECB12 /* RxSwift */; };
+		07400AA522C12C7600FECB12 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 07400AA422C12C7600FECB12 /* RxCocoa */; };
+		07400AA722C12D9900FECB12 /* CategoryCollectionReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07400AA622C12D9900FECB12 /* CategoryCollectionReactor.swift */; };
+		07400AA922C1315A00FECB12 /* CategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07400AA822C1315A00FECB12 /* CategoryTableViewCell.swift */; };
+		07400AAB22C1373100FECB12 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07400AAA22C1373100FECB12 /* MainTabBarController.swift */; };
+		07404D0222C0DDC5003BA079 /* ReactorKit in Frameworks */ = {isa = PBXBuildFile; productRef = 07404D0122C0DDC5003BA079 /* ReactorKit */; };
+		07404D1722C0DECD003BA079 /* SwiftExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07404D1522C0DECD003BA079 /* SwiftExtension.swift */; };
+		07404D1822C0DECD003BA079 /* Money.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07404D1622C0DECD003BA079 /* Money.swift */; };
+		07404D2222C0DED9003BA079 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07404D1A22C0DED9003BA079 /* ImageDownloader.swift */; };
+		07404D2322C0DED9003BA079 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07404D1B22C0DED9003BA079 /* Router.swift */; };
+		07404D2422C0DED9003BA079 /* GoccoAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07404D1C22C0DED9003BA079 /* GoccoAPI.swift */; };
+		07404D2522C0DED9003BA079 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07404D1E22C0DED9003BA079 /* Item.swift */; };
+		07404D2622C0DED9003BA079 /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07404D1F22C0DED9003BA079 /* SearchResult.swift */; };
+		07404D2722C0DED9003BA079 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07404D2022C0DED9003BA079 /* Filter.swift */; };
+		07404D2822C0DED9003BA079 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07404D2122C0DED9003BA079 /* Category.swift */; };
+		07404D2D22C125E0003BA079 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 07404D2C22C125E0003BA079 /* Alamofire */; };
+		07404D3022C126AB003BA079 /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = 07404D2F22C126AB003BA079 /* AlamofireImage */; };
+		07404D3222C12A95003BA079 /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07404D3122C12A95003BA079 /* CategoryTableViewController.swift */; };
 		07E25FBF22C0DB61005B3C16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E25FBE22C0DB61005B3C16 /* AppDelegate.swift */; };
-		07E25FC122C0DB61005B3C16 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E25FC022C0DB61005B3C16 /* FirstViewController.swift */; };
-		07E25FC322C0DB61005B3C16 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E25FC222C0DB61005B3C16 /* SecondViewController.swift */; };
 		07E25FC622C0DB61005B3C16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07E25FC422C0DB61005B3C16 /* Main.storyboard */; };
 		07E25FC822C0DB63005B3C16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07E25FC722C0DB63005B3C16 /* Assets.xcassets */; };
 		07E25FCB22C0DB63005B3C16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07E25FC922C0DB63005B3C16 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07400AA622C12D9900FECB12 /* CategoryCollectionReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionReactor.swift; sourceTree = "<group>"; };
+		07400AA822C1315A00FECB12 /* CategoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewCell.swift; sourceTree = "<group>"; };
+		07400AAA22C1373100FECB12 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		07404D1522C0DECD003BA079 /* SwiftExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftExtension.swift; sourceTree = "<group>"; };
+		07404D1622C0DECD003BA079 /* Money.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Money.swift; sourceTree = "<group>"; };
+		07404D1A22C0DED9003BA079 /* ImageDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
+		07404D1B22C0DED9003BA079 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		07404D1C22C0DED9003BA079 /* GoccoAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoccoAPI.swift; sourceTree = "<group>"; };
+		07404D1E22C0DED9003BA079 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		07404D1F22C0DED9003BA079 /* SearchResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
+		07404D2022C0DED9003BA079 /* Filter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
+		07404D2122C0DED9003BA079 /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		07404D3122C12A95003BA079 /* CategoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
 		07E25FBB22C0DB61005B3C16 /* GoccoRX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoccoRX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07E25FBE22C0DB61005B3C16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		07E25FC022C0DB61005B3C16 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		07E25FC222C0DB61005B3C16 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		07E25FC522C0DB61005B3C16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		07E25FC722C0DB63005B3C16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07E25FCA22C0DB63005B3C16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -31,12 +59,66 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07400AA522C12C7600FECB12 /* RxCocoa in Frameworks */,
+				07404D3022C126AB003BA079 /* AlamofireImage in Frameworks */,
+				07404D2D22C125E0003BA079 /* Alamofire in Frameworks */,
+				07400AA322C12C7600FECB12 /* RxSwift in Frameworks */,
+				07400AA122C12C7600FECB12 /* RxRelay in Frameworks */,
+				07404D0222C0DDC5003BA079 /* ReactorKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07404D1422C0DECD003BA079 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				07404D1522C0DECD003BA079 /* SwiftExtension.swift */,
+				07404D1622C0DECD003BA079 /* Money.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		07404D1922C0DED9003BA079 /* Net */ = {
+			isa = PBXGroup;
+			children = (
+				07404D1A22C0DED9003BA079 /* ImageDownloader.swift */,
+				07404D1B22C0DED9003BA079 /* Router.swift */,
+				07404D1C22C0DED9003BA079 /* GoccoAPI.swift */,
+			);
+			path = Net;
+			sourceTree = "<group>";
+		};
+		07404D1D22C0DED9003BA079 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				07404D1E22C0DED9003BA079 /* Item.swift */,
+				07404D1F22C0DED9003BA079 /* SearchResult.swift */,
+				07404D2022C0DED9003BA079 /* Filter.swift */,
+				07404D2122C0DED9003BA079 /* Category.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		07404D2922C0DEE3003BA079 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				07400AA822C1315A00FECB12 /* CategoryTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		07404D2A22C0DEFE003BA079 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				07400AAA22C1373100FECB12 /* MainTabBarController.swift */,
+				07404D3122C12A95003BA079 /* CategoryTableViewController.swift */,
+				07400AA622C12D9900FECB12 /* CategoryCollectionReactor.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		07E25FB222C0DB61005B3C16 = {
 			isa = PBXGroup;
 			children = (
@@ -56,11 +138,14 @@
 		07E25FBD22C0DB61005B3C16 /* GoccoRX */ = {
 			isa = PBXGroup;
 			children = (
-				07E25FBE22C0DB61005B3C16 /* AppDelegate.swift */,
-				07E25FC022C0DB61005B3C16 /* FirstViewController.swift */,
-				07E25FC222C0DB61005B3C16 /* SecondViewController.swift */,
-				07E25FC422C0DB61005B3C16 /* Main.storyboard */,
 				07E25FC722C0DB63005B3C16 /* Assets.xcassets */,
+				07E25FBE22C0DB61005B3C16 /* AppDelegate.swift */,
+				07404D1922C0DED9003BA079 /* Net */,
+				07404D1D22C0DED9003BA079 /* Models */,
+				07404D2A22C0DEFE003BA079 /* ViewControllers */,
+				07404D2922C0DEE3003BA079 /* Views */,
+				07404D1422C0DECD003BA079 /* Helpers */,
+				07E25FC422C0DB61005B3C16 /* Main.storyboard */,
 				07E25FC922C0DB63005B3C16 /* LaunchScreen.storyboard */,
 				07E25FCC22C0DB63005B3C16 /* Info.plist */,
 			);
@@ -83,6 +168,14 @@
 			dependencies = (
 			);
 			name = GoccoRX;
+			packageProductDependencies = (
+				07404D0122C0DDC5003BA079 /* ReactorKit */,
+				07404D2C22C125E0003BA079 /* Alamofire */,
+				07404D2F22C126AB003BA079 /* AlamofireImage */,
+				07400AA022C12C7600FECB12 /* RxRelay */,
+				07400AA222C12C7600FECB12 /* RxSwift */,
+				07400AA422C12C7600FECB12 /* RxCocoa */,
+			);
 			productName = GoccoRX;
 			productReference = 07E25FBB22C0DB61005B3C16 /* GoccoRX.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +204,12 @@
 				Base,
 			);
 			mainGroup = 07E25FB222C0DB61005B3C16;
+			packageReferences = (
+				07404D0022C0DDC5003BA079 /* XCRemoteSwiftPackageReference "ReactorKit" */,
+				07404D2B22C125E0003BA079 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				07404D2E22C126AB003BA079 /* XCRemoteSwiftPackageReference "AlamofireImage" */,
+				07400A9F22C12C7600FECB12 /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			productRefGroup = 07E25FBC22C0DB61005B3C16 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,9 +237,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07E25FC322C0DB61005B3C16 /* SecondViewController.swift in Sources */,
+				07404D2522C0DED9003BA079 /* Item.swift in Sources */,
+				07404D2722C0DED9003BA079 /* Filter.swift in Sources */,
+				07404D2622C0DED9003BA079 /* SearchResult.swift in Sources */,
+				07404D1822C0DECD003BA079 /* Money.swift in Sources */,
+				07404D1722C0DECD003BA079 /* SwiftExtension.swift in Sources */,
+				07404D2322C0DED9003BA079 /* Router.swift in Sources */,
 				07E25FBF22C0DB61005B3C16 /* AppDelegate.swift in Sources */,
-				07E25FC122C0DB61005B3C16 /* FirstViewController.swift in Sources */,
+				07404D2222C0DED9003BA079 /* ImageDownloader.swift in Sources */,
+				07404D2422C0DED9003BA079 /* GoccoAPI.swift in Sources */,
+				07404D2822C0DED9003BA079 /* Category.swift in Sources */,
+				07400AAB22C1373100FECB12 /* MainTabBarController.swift in Sources */,
+				07400AA922C1315A00FECB12 /* CategoryTableViewCell.swift in Sources */,
+				07404D3222C12A95003BA079 /* CategoryTableViewController.swift in Sources */,
+				07400AA722C12D9900FECB12 /* CategoryCollectionReactor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,7 +327,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -272,7 +382,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -340,6 +450,74 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		07400A9F22C12C7600FECB12 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+		07404D0022C0DDC5003BA079 /* XCRemoteSwiftPackageReference "ReactorKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactorKit/ReactorKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.1;
+			};
+		};
+		07404D2B22C125E0003BA079 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		07404D2E22C126AB003BA079 /* XCRemoteSwiftPackageReference "AlamofireImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/AlamofireImage";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		07400AA022C12C7600FECB12 /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 07400A9F22C12C7600FECB12 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		07400AA222C12C7600FECB12 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 07400A9F22C12C7600FECB12 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		07400AA422C12C7600FECB12 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 07400A9F22C12C7600FECB12 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		07404D0122C0DDC5003BA079 /* ReactorKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 07404D0022C0DDC5003BA079 /* XCRemoteSwiftPackageReference "ReactorKit" */;
+			productName = ReactorKit;
+		};
+		07404D2C22C125E0003BA079 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 07404D2B22C125E0003BA079 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		07404D2F22C126AB003BA079 /* AlamofireImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 07404D2E22C126AB003BA079 /* XCRemoteSwiftPackageReference "AlamofireImage" */;
+			productName = AlamofireImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 07E25FB322C0DB61005B3C16 /* Project object */;
 }
