@@ -16,7 +16,10 @@ class MainTabBarController: UITabBarController {
         let homeController = CategoryTableViewController(reactor: CategoryCollectionReactor(title: "Gocco".localized, categories: nil), isHome: true)
         homeController.tabBarItem = UITabBarItem(title: "Gocco", image: #imageLiteral(resourceName: "home"), tag: 0)
         
-        viewControllers = [homeController].map { UINavigationController(rootViewController: $0) }
+        let searchController = SearchCollectionViewController(reactor: SearchCollectionReactor(parent: nil))
+        searchController.tabBarItem = UITabBarItem(title: "Search", image: #imageLiteral(resourceName: "search"), tag: 0)
+        
+        viewControllers = [homeController, searchController].map { UINavigationController(rootViewController: $0) }
         selectedIndex = 0
     }
 }

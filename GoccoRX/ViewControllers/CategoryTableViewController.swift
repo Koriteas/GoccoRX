@@ -28,7 +28,7 @@ class CategoryTableViewController: UITableViewController, View {
         tableView.tableFooterView = UIView()
         tableView.dataSource = nil
         
-        navigationController?.navigationBar.prefersLargeTitles = true
+        navigationController?.navigationBar.prefersLargeTitles = isHome
         navigationItem.backBarButtonItem = UIBarButtonItem()
 
         self.reactor = reactor
@@ -78,7 +78,9 @@ class CategoryTableViewController: UITableViewController, View {
                     let controller = CategoryTableViewController(reactor: reactor)
                     self.navigationController?.pushViewController(controller, animated: true)
                 } else {
-                    // SHOW SEARCH CONTROLLER
+                    let reactor = SearchCollectionReactor(parent: category, hideSearchBar: true)
+                    let controller = SearchCollectionViewController(reactor: reactor)
+                    self.navigationController?.pushViewController(controller, animated: true)
                 }
             })
             .disposed(by: disposeBag)

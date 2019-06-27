@@ -107,8 +107,20 @@ class Item: Decodable {
     func loadImages() {
         guard let imageURLs = imageURLs else { return }
         
-        let imagesObservable = imageURLs.map { ImageConnector.shared.getImage(by: $0).asObservable().catchErrorJustReturn(UIImage()) }
+        let imagesObservable = imageURLs.compactMap { url -> Observable<UIImage?> in
+            ImageConnector.shared.getImage(by: url)
+                .asObservable()
+                .catchErrorJustReturn(UIImage())
+                .compactMap { image in
+                    guard image != UIImage() else { return nil }
+                    return image
+                }
+        }
         
-        _ = Observable.zip(imagesObservable).bind(to: images)
+        _ = Observable.zip(imagesObservable)
+                .subscribe(onNext: { [weak self] images in
+                    guard let self = self else { return }
+                    self.images.onNext(images.compactMap { $0 })
+                })
     }
 }

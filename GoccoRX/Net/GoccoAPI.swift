@@ -26,6 +26,13 @@ class GoccoAPI {
         return Alamofire.Session.default
     }()
     
+    private let retryHandler: (Observable<Error>) -> Observable<Int> = { e in
+        return e.enumerated().flatMap { (attempt, error) -> Observable<Int> in
+            guard attempt < 3 else { return Observable.error(error) }
+            return Observable<Int>.timer(.milliseconds((attempt + 1) / 2), scheduler: MainScheduler.instance).take(1)
+        }
+    }
+    
     func getHomeCategories() -> Single<[Category]> {
         Single.create { [weak self] single in
             guard let self = self else { single(.error(RequestError.unknown)); return Disposables.create() }
@@ -59,6 +66,7 @@ class GoccoAPI {
             }
         }
         .subscribeOn(ConcurrentDispatchQueueScheduler(qos: .background))
+        .retryWhen(retryHandler)
     }
     
     func searchItems(by query: String? = nil, categoryID: Int? = nil, sort: String = "name", page: Int = 1) -> Single<SearchResult> {
@@ -97,5 +105,6 @@ class GoccoAPI {
             }
         }
         .subscribeOn(ConcurrentDispatchQueueScheduler(qos: .background))
+        .retryWhen(retryHandler)
     }
 }

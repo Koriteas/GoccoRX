@@ -13,6 +13,9 @@
 		07400AA722C12D9900FECB12 /* CategoryCollectionReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07400AA622C12D9900FECB12 /* CategoryCollectionReactor.swift */; };
 		07400AA922C1315A00FECB12 /* CategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07400AA822C1315A00FECB12 /* CategoryTableViewCell.swift */; };
 		07400AAB22C1373100FECB12 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07400AAA22C1373100FECB12 /* MainTabBarController.swift */; };
+		07400AAD22C2ABAD00FECB12 /* SearchCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07400AAC22C2ABAD00FECB12 /* SearchCollectionViewController.swift */; };
+		07400AAF22C2ABCE00FECB12 /* SearchCollectionReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07400AAE22C2ABCE00FECB12 /* SearchCollectionReactor.swift */; };
+		07400AB122C2B16100FECB12 /* SearchCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07400AB022C2B16100FECB12 /* SearchCollectionViewCell.swift */; };
 		07404D0222C0DDC5003BA079 /* ReactorKit in Frameworks */ = {isa = PBXBuildFile; productRef = 07404D0122C0DDC5003BA079 /* ReactorKit */; };
 		07404D1722C0DECD003BA079 /* SwiftExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07404D1522C0DECD003BA079 /* SwiftExtension.swift */; };
 		07404D1822C0DECD003BA079 /* Money.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07404D1622C0DECD003BA079 /* Money.swift */; };
@@ -36,6 +39,9 @@
 		07400AA622C12D9900FECB12 /* CategoryCollectionReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionReactor.swift; sourceTree = "<group>"; };
 		07400AA822C1315A00FECB12 /* CategoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewCell.swift; sourceTree = "<group>"; };
 		07400AAA22C1373100FECB12 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		07400AAC22C2ABAD00FECB12 /* SearchCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCollectionViewController.swift; sourceTree = "<group>"; };
+		07400AAE22C2ABCE00FECB12 /* SearchCollectionReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCollectionReactor.swift; sourceTree = "<group>"; };
+		07400AB022C2B16100FECB12 /* SearchCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCollectionViewCell.swift; sourceTree = "<group>"; };
 		07404D1522C0DECD003BA079 /* SwiftExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftExtension.swift; sourceTree = "<group>"; };
 		07404D1622C0DECD003BA079 /* Money.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Money.swift; sourceTree = "<group>"; };
 		07404D1A22C0DED9003BA079 /* ImageDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
@@ -105,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				07400AA822C1315A00FECB12 /* CategoryTableViewCell.swift */,
+				07400AB022C2B16100FECB12 /* SearchCollectionViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -115,6 +122,8 @@
 				07400AAA22C1373100FECB12 /* MainTabBarController.swift */,
 				07404D3122C12A95003BA079 /* CategoryTableViewController.swift */,
 				07400AA622C12D9900FECB12 /* CategoryCollectionReactor.swift */,
+				07400AAC22C2ABAD00FECB12 /* SearchCollectionViewController.swift */,
+				07400AAE22C2ABCE00FECB12 /* SearchCollectionReactor.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -247,6 +256,9 @@
 				07404D2222C0DED9003BA079 /* ImageDownloader.swift in Sources */,
 				07404D2422C0DED9003BA079 /* GoccoAPI.swift in Sources */,
 				07404D2822C0DED9003BA079 /* Category.swift in Sources */,
+				07400AAF22C2ABCE00FECB12 /* SearchCollectionReactor.swift in Sources */,
+				07400AB122C2B16100FECB12 /* SearchCollectionViewCell.swift in Sources */,
+				07400AAD22C2ABAD00FECB12 /* SearchCollectionViewController.swift in Sources */,
 				07400AAB22C1373100FECB12 /* MainTabBarController.swift in Sources */,
 				07400AA922C1315A00FECB12 /* CategoryTableViewCell.swift in Sources */,
 				07404D3222C12A95003BA079 /* CategoryTableViewController.swift in Sources */,

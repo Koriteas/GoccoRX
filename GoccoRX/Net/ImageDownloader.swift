@@ -16,7 +16,7 @@ class ImageConnector {
     static let shared = ImageConnector()
 
     private let cacheImage = ImageDownloader()
-    
+
     func getImage(by url: String, filter: ImageFilter? = nil) -> Single<UIImage> {
         guard let url = url.addingPercentEncoding(withAllowedCharacters: CharacterSet.urlQueryAllowed),
             let completeURL = try? url.asURL() else {
